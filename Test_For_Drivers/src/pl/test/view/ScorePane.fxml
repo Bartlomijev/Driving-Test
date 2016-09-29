@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane prefHeight="160.0" prefWidth="103.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8" fx:controller="pl.test.controller.ScorePaneController">
+   <children>
+      <VBox layoutX="2.0" prefHeight="200.0" prefWidth="100.0">
+         <children>
+            <Label fx:id="scoreLabel" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" prefHeight="96.0" prefWidth="100.0" text="SCORE: xxx" wrapText="true" />
+         </children>
+      </VBox>
+   </children>
+</AnchorPane>
