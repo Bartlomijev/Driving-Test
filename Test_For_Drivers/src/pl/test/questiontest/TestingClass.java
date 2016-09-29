@@ -12,7 +12,7 @@ public class TestingClass {
 
 		System.out.println(dao.getAllQuestions());
 		System.out.println(dao.getSecondQuestion().get(0).getQuestion());
-		System.out.println("}}}}}}}}");
+		System.out.println("}}}}}}}");
 		System.out.println(dao.getSecondQuestion());
 		System.out.println("-----");
 		System.out.println(dao.getEasyQuestions());
